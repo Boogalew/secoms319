@@ -29,51 +29,30 @@
 <body>
 
   <header> <!--NavBar-->
-    <div class="collapse bg-dark" id="navbarHeader">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-8 col-md-7 py-4">
-            <h4 class="text-white">About</h4>
-            <p class="text-white">This is our first assignment in Com s 319 and this is a fun way to introduce ourselves. <br>
-            <a href="https://www.linkedin.com/in/braden-buckalew-93a8881b3/">Braden's LinkedIn</a> <br>
-            <a href="">Daniel add your linked in here plz</a>
-            </p>
-          </div>
-          <div class="col-sm-4 offset-md-1 py-4">
-            <h4 class="text-white">Other Sites</h4>
-            <ul class="list-unstyled">
-              <li><a href="indexTwo.html" class="text-white">View Credits</a></li>
-              <li><a href="index.html" class="text-white">View Turtles!</a></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-    <div class="navbar navbar-dark bg-dark shadow-sm">
-      <div class="container">
-        <a href="#" class="navbar-brand d-flex align-items-center">
-          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="none" stroke="currentColor"
-            stroke-linecap="round" stroke-linejoin="round" stroke-width="2" aria-hidden="true" class="me-2"
-            viewBox="0 0 24 24">
-            <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
-            <circle cx="12" cy="13" r="4" />
-          </svg>
-          <strong>Assignment One</strong>
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
-          aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Assignment One</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav me-auto mb-2 mb-md-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Turtles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="indexTwo.html">Credits</a>
+            </li>
+          </ul>
+        </div>
       </div>
-    </div>
+    </nav>
   </header>
-
+  
   <main>
 
-    <section>
-      <h1 style="text-align: center;">Our Favorite Things About Turtles!</h1>
-    </section>
     <div class="album py-5 bg-light">
+      <h1 style="text-align: center;">We Love Turtles!</h1>
       <div class="container">
 
         <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
