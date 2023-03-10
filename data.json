@@ -1,0 +1,43 @@
+{
+    "Turtles": [
+        {
+            "turtleName" : "Baby Slider Turtle",
+            "price" : "",
+            "description": "This is a baby slider turtle. It is both small and cute. That is a pretty good turtle.",
+            "imagePath" : "./images/turtles/babyTurtle.jpg"
+        },
+        {
+            "turtleName" : "Artistic Turtle",
+            "price" : "",
+            "description": "This is an artist rendition's of a turtle. It is nothing shortof amazing. This is the best turtle drawing you've likely ever seen and if you say otherwise you should be ashamed for lying. Have some decorum.",
+            "imagePath" : "./images/turtles/artisticTurtle.jpg"
+        },
+        {
+            "turtleName" : "tortoise",
+            "price" : "",
+            "description": "This is a tortoise. All tortoises are turtles, but not all turtles are tortoises. Regardless it's hard to tell that this is a real picture when next to the hyper realistic drawing to the left. We apologize.",
+            "imagePath" : "./images/turtles/tortoise.jpg"
+        }
+    ],
+    "Food":[
+        {
+            "foodName" : "Kelp",
+            "price" : "",
+            "description": "My personal favorite for my turtle",
+            "imagePath" : ""
+        },
+        {
+            "foodName" : "Diet Kelp",
+            "price" : "",
+            "description": "I give this to my turtle when hes getting chunky",
+            "imagePath" : ""
+        },
+        {
+            "foodName" : "Dry food",
+            "price" : "",
+            "description": "get this if your lame",
+            "imagePath" : ""
+        }
+    ]
+    
+}
