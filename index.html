@@ -7,7 +7,7 @@
   <meta name="description" content="">
   <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
   <meta name="generator" content="Hugo 0.108.0">
-  <title>Coms319 Assignment 01</title>
+  <title>Coms319 Midterm</title>
   <script src="./index.js"></script>
   <link rel="canonical" href="https://getbootstrap.com/docs/5.3/examples/album/">
 
@@ -32,151 +32,169 @@
 </head>
 
 <body>
+    <script src="index.js"></script>
 
-  <header> <!--NavBar-->
-    <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">MidTerm Project</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-          <ul class="navbar-nav me-auto mb-2 mb-md-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#" onclick="getTurtles();">Turtles</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#" onclick="getFood();">Turtle Food</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link active" href="indexTwo.html">Credits</a>
-            </li>
-          </ul>
+    <header>
+        <!--NavBar-->
+        <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">MidTerm Project</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav me-auto mb-2 mb-md-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" onclick="getTurtles();">Turtles</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#" onclick="getFood();">Turtle Food</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="indexTwo.html">Credits</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+
+        <div class="album py-5 bg-light">
+            <h1 style="text-align: center;">We Love Turtles!</h1>
+            <div class="container">
+                <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3" id="container">
+
+
+
+
+
+
+
+
+
+
+
+
+                    <!-- <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="./turtles/babyTurtle.jpg" alt="Baby Turtle">
+                        <div class="card-body">
+                          <p class="card-text">This is a baby slider turtle. It is both small
+                            and cute. That is a pretty good turtle.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+
+                            </div>
+                            <small class="text-muted">2/15/2023</small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+
+
+
+
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="./turtles/artisticTurtle.jpg" alt="Picasso Turtle">
+                        <div class="card-body">
+                          <p class="card-text">This is an artist rendition's of a turtle. It is nothing short
+                              of amazing. This is the best turtle drawing you've likely ever seen and if you
+                              say otherwise you should be ashamed for lying. Have some decorum.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+
+                            </div>
+                            <small class="text-muted">2/15/2023</small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="./turtles/tortoise.jpg" alt="tortoise">
+                        <div class="card-body">
+                          <p class="card-text">This is a tortoise. All tortoises are turtles, but not all
+                            turtles are tortoises. Regardless it's hard to tell that this is a real picture
+                            when next to the hyper realistic drawing to the left. We apologize.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+
+                            </div>
+                            <small class="text-muted">2/15/2023</small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="./turtles/emojiTurtle.jpg" alt="Turtle Emoji">
+                        <div class="card-body">
+                          <p class="card-text">This is not a real turtle. It's actually just an emoji. The
+                            Cowboy hat is cool though, so it gets a pass. This time.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+
+                            </div>
+                            <small class="text-muted">2/15/2023</small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="./turtles/turtleBoxSandBox.jpg" alt="Sandbox Turtle">
+                        <div class="card-body">
+                          <p class="card-text">Truly the quintessential landmark to suburban childhood.
+                            Everyone has either owned one or seen one. Whoever made it was likely a genius.
+                            It would not be farfetched to say the famous TurtleBox Sandbox is the keystone to
+                            modern western society.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+
+                            </div>
+                            <small class="text-muted">2/15/2023</small>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col">
+                      <div class="card shadow-sm">
+                        <img src="./turtles/sand.jpg" alt="Sand">
+                        <div class="card-body">
+                          <p class="card-text">Ope- looks like the keystone to western society (TurtleBox Sandbox)
+                            leaked some sand. They say a sandstorm can shatter glass, and while all grains work
+                            equally it is unknown which grain did the deed.</p>
+                          <div class="d-flex justify-content-between align-items-center">
+                            <div class="btn-group">
+
+                            </div>
+                            <small class="text-muted">2/15/2023</small>
+                          </div>
+                        </div>
+                      </div>
+                    </div> -->
+                </div>
+            </div>
         </div>
-      </div>
-    </nav>
-  </header>
-  
-  <main>
 
-    <div class="album py-5 bg-light">
-      <h1 style="text-align: center;">We Love Turtles!</h1>
-      <div class="container">
+    </main>
 
-        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3"  id="container">
-          <!-- <div class="col">
-            <div class="card shadow-sm">
-              <img src="./turtles/babyTurtle.jpg" alt="Baby Turtle">
-              <div class="card-body">
-                <p class="card-text">This is a baby slider turtle. It is both small
-                  and cute. That is a pretty good turtle.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    
-                  </div>
-                  <small class="text-muted">2/15/2023</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="./turtles/artisticTurtle.jpg" alt="Picasso Turtle">
-              <div class="card-body">
-                <p class="card-text">This is an artist rendition's of a turtle. It is nothing short
-                    of amazing. This is the best turtle drawing you've likely ever seen and if you 
-                    say otherwise you should be ashamed for lying. Have some decorum.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                   
-                  </div>
-                  <small class="text-muted">2/15/2023</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="./turtles/tortoise.jpg" alt="tortoise">
-              <div class="card-body">
-                <p class="card-text">This is a tortoise. All tortoises are turtles, but not all
-                  turtles are tortoises. Regardless it's hard to tell that this is a real picture
-                  when next to the hyper realistic drawing to the left. We apologize.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    
-                  </div>
-                  <small class="text-muted">2/15/2023</small>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="./turtles/emojiTurtle.jpg" alt="Turtle Emoji">
-              <div class="card-body">
-                <p class="card-text">This is not a real turtle. It's actually just an emoji. The
-                  Cowboy hat is cool though, so it gets a pass. This time.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    
-                  </div>
-                  <small class="text-muted">2/15/2023</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="./turtles/turtleBoxSandBox.jpg" alt="Sandbox Turtle">
-              <div class="card-body">
-                <p class="card-text">Truly the quintessential landmark to suburban childhood.
-                  Everyone has either owned one or seen one. Whoever made it was likely a genius.
-                  It would not be farfetched to say the famous TurtleBox Sandbox is the keystone to
-                  modern western society.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    
-                  </div>
-                  <small class="text-muted">2/15/2023</small>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="card shadow-sm">
-              <img src="./turtles/sand.jpg" alt="Sand">
-              <div class="card-body">
-                <p class="card-text">Ope- looks like the keystone to western society (TurtleBox Sandbox)
-                  leaked some sand. They say a sandstorm can shatter glass, and while all grains work
-                  equally it is unknown which grain did the deed.</p>
-                <div class="d-flex justify-content-between align-items-center">
-                  <div class="btn-group">
-                    
-                  </div>
-                  <small class="text-muted">2/15/2023</small>
-                </div>
-              </div>
-            </div>
-          </div> --> 
-        </div> 
-      </div>
-    </div>
-
-  </main>
-
-  <footer class="text-muted py-5">
-    <div class="container">
-      <p class="float-end mb-1">
-        <a href="#">Back to top</a>
-      </p>
-      <p class="mb-1">This Assignment is a fun way for us to introduce ourselves!</p>
-    </div>
-  </footer>
+    <footer class="text-muted py-5">
+        <div class="container">
+            <p class="float-end mb-1">
+                <a href="#">Back to top</a>
+            </p>
+            <p class="mb-1">This Assignment is a fun way for us to introduce ourselves!</p>
+        </div>
+    </footer>
 
 
-  <!-- <script src="../assets/dist/js/bootstrap.bundle.min.js"></script> -->
+    <!-- <script src="../assets/dist/js/bootstrap.bundle.min.js"></script> -->
 
 
 </body>

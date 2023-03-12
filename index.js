@@ -8,31 +8,40 @@ function getTurtles() {
         let mainContainer = document.getElementById("container");
         for (let i = 0; i < data.Turtles.length; i++) {
             let turtleName = data.Turtles[i].turtleName;
-            let price = data.Turtles[i].price;
+            //let price = data.Turtles[i].price;
             let description = data.Turtles[i].description;
             let imagePath = data.Turtles[i].imagePath;
-            let mytr = document.createElement("div");
-            mytr.classList.add("col");
+            let dateAdded = data.Turtles[i].dateAdded;
+            let screenElement = document.createElement("div");
+            screenElement.classList.add("col");
 
-            mytr.innerHTML = `
-    <div class="col">
-            <div class="card shadow-sm">
-              <img src="${imagePath}" alt="Baby Turtle">
+
+
+            screenElement.innerHTML = `
+            <div class="col">
+                <div class="card shadow-sm">
+              <img src="${imagePath}" alt="${turtleName}">
               <div class="card-body">
                 <p class="card-text">${description}</p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group"> 
                   </div>
-                  <small class="text-muted">2/15/2023</small>
+                  <small class="text-muted">${dateAdded}</small>
                 </div>
               </div>
             </div>
           </div> `;
-            mainContainer.appendChild(mytr);
+            mainContainer.appendChild(screenElement);
         }
     }
 }
 
+
+
+
+
+
+/**
 function getFood() {
     fetch("data.json")
         .then(response => response.json())
@@ -65,4 +74,4 @@ function getFood() {
             mainContainer.appendChild(mytr);
         }
     }
-}
+} */
