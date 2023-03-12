@@ -1,5 +1,6 @@
 
 function getTurtles() {
+    //alert("Hello Daniel");
     fetch("data.json")
         .then(response => response.json())
         .then(data => dataToHTML(data));
