@@ -57,7 +57,7 @@ function getFood() {
             <div class="card shadow-sm">
               <img src="${imagePath}" alt="${foodName}">
               <div class="card-body">
-                <p class="card-text"> ${foodName}</p> ${description}</p> Price </p> ${price} </p>
+                <p class="card-text"> <p class="price">${foodName}</p> ${description}</p> <p class="price">Price </p> ${price} </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group"> 
                   </div>
