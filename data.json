@@ -4,40 +4,46 @@
             "turtleName" : "Baby Slider Turtle",
             "price" : "",
             "description": "This is a baby slider turtle. It is both small and cute. That is a pretty good turtle.",
-            "imagePath" : "./images/turtles/babyTurtle.jpg"
+            "imagePath" : "./images/turtles/babyTurtle.jpg",
+            "dateAdded" : "2/15/2023"
         },
         {
             "turtleName" : "Artistic Turtle",
             "price" : "",
-            "description": "This is an artist rendition's of a turtle. It is nothing shortof amazing. This is the best turtle drawing you've likely ever seen and if you say otherwise you should be ashamed for lying. Have some decorum.",
-            "imagePath" : "./images/turtles/artisticTurtle.jpg"
+            "description": "This is an artist rendition's of a turtle. It is nothing short of amazing. This is the best turtle drawing you've likely ever seen and if you say otherwise you should be ashamed for lying. Have some decorum.",
+            "imagePath" : "./images/turtles/artisticTurtle.jpg",
+            "dateAdded" : "2/15/2023"
         },
         {
-            "turtleName" : "tortoise",
+            "turtleName" : "Tortoise",
             "price" : "",
             "description": "This is a tortoise. All tortoises are turtles, but not all turtles are tortoises. Regardless it's hard to tell that this is a real picture when next to the hyper realistic drawing to the left. We apologize.",
-            "imagePath" : "./images/turtles/tortoise.jpg"
+            "imagePath" : "./images/turtles/tortoise.jpg",
+            "dateAdded" : "2/15/2023"
         }
     ],
-    "Food":[
-        {
-            "foodName" : "Kelp",
-            "price" : "",
-            "description": "My personal favorite for my turtle",
-            "imagePath" : ""
-        },
-        {
-            "foodName" : "Diet Kelp",
-            "price" : "",
-            "description": "I give this to my turtle when hes getting chunky",
-            "imagePath" : ""
-        },
-        {
-            "foodName" : "Dry food",
-            "price" : "",
-            "description": "get this if your lame",
-            "imagePath" : ""
-        }
+     "Food":[
+      {
+        "foodName": "Kelp",
+        "price": "$5",
+        "description": "My personal favorite for my turtle.",
+        "imagePath": "./images/food/Kelp.jpg",
+        "dateAdded": "3/10/2023"
+      },
+      {
+        "foodName": "Diet Kelp",
+        "price": "$10",
+        "description": "I give this to my turtle when he's getting chunky.",
+        "imagePath": "./images/food/DietKelp.jpg",
+        "dateAdded": "3/10/2023"
+      },
+      {
+        "foodName": "Dry food",
+        "price": "$20",
+        "description": "Get this if your lame.",
+        "imagePath": "./images/food/DryFood.jpg",
+        "dateAdded": "3/10/2023"
+      }
     ]
     
 }
