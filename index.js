@@ -8,7 +8,7 @@ function getTurtles() {
         let mainContainer = document.getElementById("container");
         for (let i = 0; i < data.Turtles.length; i++) {
             let turtleName = data.Turtles[i].turtleName;
-            //let price = data.Turtles[i].price;
+            let price = data.Turtles[i].price;
             let description = data.Turtles[i].description;
             let imagePath = data.Turtles[i].imagePath;
             let dateAdded = data.Turtles[i].dateAdded;
