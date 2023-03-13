@@ -1,6 +1,5 @@
 
 function getTurtles() {
-    //alert("Hello Daniel");
     fetch("data.json")
         .then(response => response.json())
         .then(data => dataToHTML(data));
@@ -38,11 +37,6 @@ function getTurtles() {
 }
 
 
-
-
-
-
-/**
 function getFood() {
     fetch("data.json")
         .then(response => response.json())
@@ -61,9 +55,9 @@ function getFood() {
             mytr.innerHTML = `
     <div class="col">
             <div class="card shadow-sm">
-              <img src="${imagePath}" alt="Baby Turtle">
+              <img src="${imagePath}" alt="${foodName}">
               <div class="card-body">
-                <p class="card-text">${description}</p>
+                <p class="card-text"> ${foodName}</p> ${description}</p> Price </p> ${price} </p>
                 <div class="d-flex justify-content-between align-items-center">
                   <div class="btn-group"> 
                   </div>
@@ -75,4 +69,4 @@ function getFood() {
             mainContainer.appendChild(mytr);
         }
     }
-} */
+} 
